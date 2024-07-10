@@ -10,9 +10,8 @@ dotenv.config();
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:3001', 'https://boxing-front.onrender.com'];
+const allowedOrigins = ['http://localhost:3001', 'https://boxing-front-prod.onrender.com'];
 
-// Debug: Log allowedOrigins to verify its content
 console.log('Allowed origins:', allowedOrigins);
 
 const corsOptions = {
